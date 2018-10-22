@@ -9,7 +9,7 @@ class TimerButton extends Component {
         offTime: 0,
     }
 
-    // timer = 0;
+    timer = 0;
 
     offTimer = () => {
         if (restCounter === 3) {
@@ -66,7 +66,6 @@ class TimerButton extends Component {
 
 let counter = 0;
 let restCounter = 0;
-// let timer;
 
 const styles = StyleSheet.create({
     timerButton: {
