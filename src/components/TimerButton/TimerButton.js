@@ -9,8 +9,6 @@ class TimerButton extends Component {
         offTime: 0,
     }
 
-    timer = 0;
-
     offTimer = () => {
         if (restCounter === 3) {
             this.setState({
